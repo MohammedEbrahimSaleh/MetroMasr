@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		632943E92221A64100B782AF /* forgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632943E82221A64100B782AF /* forgetPasswordViewController.swift */; };
+		632943EB2221B3F500B782AF /* confirmPINViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632943EA2221B3F500B782AF /* confirmPINViewController.swift */; };
+		632943ED2221B42000B782AF /* recreatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632943EC2221B42000B782AF /* recreatePasswordViewController.swift */; };
+		632CD5A5221EE4760090FF2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CD5A4221EE4760090FF2D /* AppDelegate.swift */; };
+		632CD5AA221EE4760090FF2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632CD5A8221EE4760090FF2D /* Main.storyboard */; };
+		632CD5AD221EE4760090FF2D /* MetroMasr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 632CD5AB221EE4760090FF2D /* MetroMasr.xcdatamodeld */; };
+		632CD5AF221EE4760090FF2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632CD5AE221EE4760090FF2D /* Assets.xcassets */; };
+		632CD5B2221EE4760090FF2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632CD5B0221EE4760090FF2D /* LaunchScreen.storyboard */; };
+		632CD5BD221EE4760090FF2D /* MetroMasrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CD5BC221EE4760090FF2D /* MetroMasrTests.swift */; };
+		632CD5C8221EE4760090FF2D /* MetroMasrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CD5C7221EE4760090FF2D /* MetroMasrUITests.swift */; };
+		632CD5D6221EE5980090FF2D /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CD5D5221EE5980090FF2D /* logInViewController.swift */; };
+		632CD5DD221EFE530090FF2D /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CD5DB221EFE520090FF2D /* DesignableTextField.swift */; };
+		632CD5DE221EFE530090FF2D /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CD5DC221EFE520090FF2D /* DesignableButton.swift */; };
+		632CD5E1221F25680090FF2D /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CD5E0221F25680090FF2D /* SignUPViewController.swift */; };
+		63866628222FF8110016EA9C /* myLocationOnMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63866627222FF8110016EA9C /* myLocationOnMapViewController.swift */; };
+		63A4E26F22254C7A00187B84 /* myTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A4E26E22254C7A00187B84 /* myTabBarViewController.swift */; };
+		63A4E2712225604800187B84 /* mapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A4E2702225604800187B84 /* mapsViewController.swift */; };
+		63A4E2732225645700187B84 /* nearestStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A4E2722225645700187B84 /* nearestStationViewController.swift */; };
+		63A4E2772225653D00187B84 /* myCurrentPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A4E2752225653D00187B84 /* myCurrentPositionViewController.swift */; };
+		63A4E2782225653D00187B84 /* myCurrentPositionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A4E2762225653D00187B84 /* myCurrentPositionViewController.xib */; };
+		63A4E27B2225655A00187B84 /* anotherPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A4E2792225655A00187B84 /* anotherPositionViewController.swift */; };
+		63A4E27C2225655A00187B84 /* anotherPositionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A4E27A2225655A00187B84 /* anotherPositionViewController.xib */; };
+		63AF85642223045800AD96F6 /* demonstrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF85632223045800AD96F6 /* demonstrationViewController.swift */; };
+		63B771CA222C9C4900D8D2C4 /* getDirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B771C9222C9C4900D8D2C4 /* getDirectionsViewController.swift */; };
+		63B771CC222C9CB800D8D2C4 /* dierctionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B771CB222C9CB800D8D2C4 /* dierctionTableViewCell.swift */; };
+		63F9886F2227C7AB007FFBE7 /* BookTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F9886E2227C7AB007FFBE7 /* BookTicketsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		632CD5B9221EE4760090FF2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 632CD599221EE4750090FF2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 632CD5A0221EE4760090FF2D;
+			remoteInfo = MetroMasr;
+		};
+		632CD5C4221EE4760090FF2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 632CD599221EE4750090FF2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 632CD5A0221EE4760090FF2D;
+			remoteInfo = MetroMasr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		632943E82221A64100B782AF /* forgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetPasswordViewController.swift; sourceTree = "<group>"; };
+		632943EA2221B3F500B782AF /* confirmPINViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmPINViewController.swift; sourceTree = "<group>"; };
+		632943EC2221B42000B782AF /* recreatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recreatePasswordViewController.swift; sourceTree = "<group>"; };
+		632CD5A1221EE4760090FF2D /* MetroMasr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetroMasr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		632CD5A4221EE4760090FF2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		632CD5A9221EE4760090FF2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		632CD5AC221EE4760090FF2D /* MetroMasr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MetroMasr.xcdatamodel; sourceTree = "<group>"; };
+		632CD5AE221EE4760090FF2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		632CD5B1221EE4760090FF2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		632CD5B3221EE4760090FF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632CD5B8221EE4760090FF2D /* MetroMasrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroMasrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		632CD5BC221EE4760090FF2D /* MetroMasrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroMasrTests.swift; sourceTree = "<group>"; };
+		632CD5BE221EE4760090FF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632CD5C3221EE4760090FF2D /* MetroMasrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroMasrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		632CD5C7221EE4760090FF2D /* MetroMasrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroMasrUITests.swift; sourceTree = "<group>"; };
+		632CD5C9221EE4760090FF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632CD5D5221EE5980090FF2D /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
+		632CD5DB221EFE520090FF2D /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		632CD5DC221EFE520090FF2D /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		632CD5E0221F25680090FF2D /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		63866627222FF8110016EA9C /* myLocationOnMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myLocationOnMapViewController.swift; sourceTree = "<group>"; };
+		63A4E26E22254C7A00187B84 /* myTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTabBarViewController.swift; sourceTree = "<group>"; };
+		63A4E2702225604800187B84 /* mapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapsViewController.swift; sourceTree = "<group>"; };
+		63A4E2722225645700187B84 /* nearestStationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nearestStationViewController.swift; sourceTree = "<group>"; };
+		63A4E2752225653D00187B84 /* myCurrentPositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCurrentPositionViewController.swift; sourceTree = "<group>"; };
+		63A4E2762225653D00187B84 /* myCurrentPositionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myCurrentPositionViewController.xib; sourceTree = "<group>"; };
+		63A4E2792225655A00187B84 /* anotherPositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anotherPositionViewController.swift; sourceTree = "<group>"; };
+		63A4E27A2225655A00187B84 /* anotherPositionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = anotherPositionViewController.xib; sourceTree = "<group>"; };
+		63AF85632223045800AD96F6 /* demonstrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = demonstrationViewController.swift; sourceTree = "<group>"; };
+		63B771C9222C9C4900D8D2C4 /* getDirectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getDirectionsViewController.swift; sourceTree = "<group>"; };
+		63B771CB222C9CB800D8D2C4 /* dierctionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dierctionTableViewCell.swift; sourceTree = "<group>"; };
+		63F9886E2227C7AB007FFBE7 /* BookTicketsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTicketsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		632CD59E221EE4760090FF2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632CD5B5221EE4760090FF2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632CD5C0221EE4760090FF2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6318F7062222B54A004CCB22 /* forget password groub */ = {
+			isa = PBXGroup;
+			children = (
+				632943E82221A64100B782AF /* forgetPasswordViewController.swift */,
+				632943EA2221B3F500B782AF /* confirmPINViewController.swift */,
+				632943EC2221B42000B782AF /* recreatePasswordViewController.swift */,
+			);
+			path = "forget password groub";
+			sourceTree = "<group>";
+		};
+		632CD598221EE4750090FF2D = {
+			isa = PBXGroup;
+			children = (
+				632CD5A3221EE4760090FF2D /* MetroMasr */,
+				632CD5BB221EE4760090FF2D /* MetroMasrTests */,
+				632CD5C6221EE4760090FF2D /* MetroMasrUITests */,
+				632CD5A2221EE4760090FF2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		632CD5A2221EE4760090FF2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				632CD5A1221EE4760090FF2D /* MetroMasr.app */,
+				632CD5B8221EE4760090FF2D /* MetroMasrTests.xctest */,
+				632CD5C3221EE4760090FF2D /* MetroMasrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		632CD5A3221EE4760090FF2D /* MetroMasr */ = {
+			isa = PBXGroup;
+			children = (
+				632CD5DF221EFE6E0090FF2D /* designable */,
+				632CD5D8221EE6370090FF2D /* View */,
+				632CD5D7221EE6230090FF2D /* Controller */,
+				632CD5D9221EE6580090FF2D /* Addition */,
+			);
+			path = MetroMasr;
+			sourceTree = "<group>";
+		};
+		632CD5BB221EE4760090FF2D /* MetroMasrTests */ = {
+			isa = PBXGroup;
+			children = (
+				632CD5BC221EE4760090FF2D /* MetroMasrTests.swift */,
+				632CD5BE221EE4760090FF2D /* Info.plist */,
+			);
+			path = MetroMasrTests;
+			sourceTree = "<group>";
+		};
+		632CD5C6221EE4760090FF2D /* MetroMasrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				632CD5C7221EE4760090FF2D /* MetroMasrUITests.swift */,
+				632CD5C9221EE4760090FF2D /* Info.plist */,
+			);
+			path = MetroMasrUITests;
+			sourceTree = "<group>";
+		};
+		632CD5D7221EE6230090FF2D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63F9886C2227C2E3007FFBE7 /* Initializer */,
+				63A4E26E22254C7A00187B84 /* myTabBarViewController.swift */,
+				63F9886D2227C30A007FFBE7 /* Home */,
+				6318F7062222B54A004CCB22 /* forget password groub */,
+				63F9886B2227C2B4007FFBE7 /* Maps */,
+				63A4E2742225651400187B84 /* Nearest Station */,
+				63F9886A2227C276007FFBE7 /* Book Tickets */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		632CD5D8221EE6370090FF2D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				632CD5A8221EE4760090FF2D /* Main.storyboard */,
+				632CD5B0221EE4760090FF2D /* LaunchScreen.storyboard */,
+				632CD5AE221EE4760090FF2D /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		632CD5D9221EE6580090FF2D /* Addition */ = {
+			isa = PBXGroup;
+			children = (
+				632CD5B3221EE4760090FF2D /* Info.plist */,
+				632CD5AB221EE4760090FF2D /* MetroMasr.xcdatamodeld */,
+			);
+			path = Addition;
+			sourceTree = "<group>";
+		};
+		632CD5DF221EFE6E0090FF2D /* designable */ = {
+			isa = PBXGroup;
+			children = (
+				632CD5DB221EFE520090FF2D /* DesignableTextField.swift */,
+				632CD5DC221EFE520090FF2D /* DesignableButton.swift */,
+			);
+			path = designable;
+			sourceTree = "<group>";
+		};
+		63A4E2742225651400187B84 /* Nearest Station */ = {
+			isa = PBXGroup;
+			children = (
+				63A4E2722225645700187B84 /* nearestStationViewController.swift */,
+				63A4E2752225653D00187B84 /* myCurrentPositionViewController.swift */,
+				63A4E2762225653D00187B84 /* myCurrentPositionViewController.xib */,
+				63866627222FF8110016EA9C /* myLocationOnMapViewController.swift */,
+				63A4E2792225655A00187B84 /* anotherPositionViewController.swift */,
+				63A4E27A2225655A00187B84 /* anotherPositionViewController.xib */,
+			);
+			path = "Nearest Station";
+			sourceTree = "<group>";
+		};
+		63F9886A2227C276007FFBE7 /* Book Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				63F9886E2227C7AB007FFBE7 /* BookTicketsViewController.swift */,
+				63B771C9222C9C4900D8D2C4 /* getDirectionsViewController.swift */,
+				63B771CB222C9CB800D8D2C4 /* dierctionTableViewCell.swift */,
+			);
+			path = "Book Tickets";
+			sourceTree = "<group>";
+		};
+		63F9886B2227C2B4007FFBE7 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				63A4E2702225604800187B84 /* mapsViewController.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		63F9886C2227C2E3007FFBE7 /* Initializer */ = {
+			isa = PBXGroup;
+			children = (
+				632CD5A4221EE4760090FF2D /* AppDelegate.swift */,
+				632CD5D5221EE5980090FF2D /* logInViewController.swift */,
+				632CD5E0221F25680090FF2D /* SignUPViewController.swift */,
+			);
+			path = Initializer;
+			sourceTree = "<group>";
+		};
+		63F9886D2227C30A007FFBE7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				63AF85632223045800AD96F6 /* demonstrationViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		632CD5A0221EE4760090FF2D /* MetroMasr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632CD5CC221EE4760090FF2D /* Build configuration list for PBXNativeTarget "MetroMasr" */;
+			buildPhases = (
+				632CD59D221EE4760090FF2D /* Sources */,
+				632CD59E221EE4760090FF2D /* Frameworks */,
+				632CD59F221EE4760090FF2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetroMasr;
+			productName = MetroMasr;
+			productReference = 632CD5A1221EE4760090FF2D /* MetroMasr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		632CD5B7221EE4760090FF2D /* MetroMasrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632CD5CF221EE4760090FF2D /* Build configuration list for PBXNativeTarget "MetroMasrTests" */;
+			buildPhases = (
+				632CD5B4221EE4760090FF2D /* Sources */,
+				632CD5B5221EE4760090FF2D /* Frameworks */,
+				632CD5B6221EE4760090FF2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				632CD5BA221EE4760090FF2D /* PBXTargetDependency */,
+			);
+			name = MetroMasrTests;
+			productName = MetroMasrTests;
+			productReference = 632CD5B8221EE4760090FF2D /* MetroMasrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		632CD5C2221EE4760090FF2D /* MetroMasrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632CD5D2221EE4760090FF2D /* Build configuration list for PBXNativeTarget "MetroMasrUITests" */;
+			buildPhases = (
+				632CD5BF221EE4760090FF2D /* Sources */,
+				632CD5C0221EE4760090FF2D /* Frameworks */,
+				632CD5C1221EE4760090FF2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				632CD5C5221EE4760090FF2D /* PBXTargetDependency */,
+			);
+			name = MetroMasrUITests;
+			productName = MetroMasrUITests;
+			productReference = 632CD5C3221EE4760090FF2D /* MetroMasrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		632CD599221EE4750090FF2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = SoftTechnology;
+				TargetAttributes = {
+					632CD5A0221EE4760090FF2D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					632CD5B7221EE4760090FF2D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 632CD5A0221EE4760090FF2D;
+					};
+					632CD5C2221EE4760090FF2D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 632CD5A0221EE4760090FF2D;
+					};
+				};
+			};
+			buildConfigurationList = 632CD59C221EE4760090FF2D /* Build configuration list for PBXProject "MetroMasr" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 632CD598221EE4750090FF2D;
+			productRefGroup = 632CD5A2221EE4760090FF2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				632CD5A0221EE4760090FF2D /* MetroMasr */,
+				632CD5B7221EE4760090FF2D /* MetroMasrTests */,
+				632CD5C2221EE4760090FF2D /* MetroMasrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		632CD59F221EE4760090FF2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632CD5B2221EE4760090FF2D /* LaunchScreen.storyboard in Resources */,
+				63A4E2782225653D00187B84 /* myCurrentPositionViewController.xib in Resources */,
+				632CD5AF221EE4760090FF2D /* Assets.xcassets in Resources */,
+				632CD5AA221EE4760090FF2D /* Main.storyboard in Resources */,
+				63A4E27C2225655A00187B84 /* anotherPositionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632CD5B6221EE4760090FF2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632CD5C1221EE4760090FF2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		632CD59D221EE4760090FF2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632CD5AD221EE4760090FF2D /* MetroMasr.xcdatamodeld in Sources */,
+				632CD5D6221EE5980090FF2D /* logInViewController.swift in Sources */,
+				63AF85642223045800AD96F6 /* demonstrationViewController.swift in Sources */,
+				63A4E26F22254C7A00187B84 /* myTabBarViewController.swift in Sources */,
+				63A4E2712225604800187B84 /* mapsViewController.swift in Sources */,
+				63A4E2732225645700187B84 /* nearestStationViewController.swift in Sources */,
+				63866628222FF8110016EA9C /* myLocationOnMapViewController.swift in Sources */,
+				632943ED2221B42000B782AF /* recreatePasswordViewController.swift in Sources */,
+				632CD5A5221EE4760090FF2D /* AppDelegate.swift in Sources */,
+				632943E92221A64100B782AF /* forgetPasswordViewController.swift in Sources */,
+				63B771CC222C9CB800D8D2C4 /* dierctionTableViewCell.swift in Sources */,
+				632CD5DE221EFE530090FF2D /* DesignableButton.swift in Sources */,
+				63A4E27B2225655A00187B84 /* anotherPositionViewController.swift in Sources */,
+				63F9886F2227C7AB007FFBE7 /* BookTicketsViewController.swift in Sources */,
+				632943EB2221B3F500B782AF /* confirmPINViewController.swift in Sources */,
+				632CD5E1221F25680090FF2D /* SignUPViewController.swift in Sources */,
+				632CD5DD221EFE530090FF2D /* DesignableTextField.swift in Sources */,
+				63B771CA222C9C4900D8D2C4 /* getDirectionsViewController.swift in Sources */,
+				63A4E2772225653D00187B84 /* myCurrentPositionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632CD5B4221EE4760090FF2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632CD5BD221EE4760090FF2D /* MetroMasrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632CD5BF221EE4760090FF2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632CD5C8221EE4760090FF2D /* MetroMasrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		632CD5BA221EE4760090FF2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 632CD5A0221EE4760090FF2D /* MetroMasr */;
+			targetProxy = 632CD5B9221EE4760090FF2D /* PBXContainerItemProxy */;
+		};
+		632CD5C5221EE4760090FF2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 632CD5A0221EE4760090FF2D /* MetroMasr */;
+			targetProxy = 632CD5C4221EE4760090FF2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		632CD5A8221EE4760090FF2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632CD5A9221EE4760090FF2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		632CD5B0221EE4760090FF2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632CD5B1221EE4760090FF2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		632CD5CA221EE4760090FF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		632CD5CB221EE4760090FF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		632CD5CD221EE4760090FF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/MetroMasr/Addition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hema.com.MetroMasr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		632CD5CE221EE4760090FF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/MetroMasr/Addition/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hema.com.MetroMasr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		632CD5D0221EE4760090FF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetroMasrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hema.com.MetroMasrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetroMasr.app/MetroMasr";
+			};
+			name = Debug;
+		};
+		632CD5D1221EE4760090FF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetroMasrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hema.com.MetroMasrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetroMasr.app/MetroMasr";
+			};
+			name = Release;
+		};
+		632CD5D3221EE4760090FF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetroMasrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hema.com.MetroMasrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetroMasr;
+			};
+			name = Debug;
+		};
+		632CD5D4221EE4760090FF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MetroMasrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hema.com.MetroMasrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetroMasr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		632CD59C221EE4760090FF2D /* Build configuration list for PBXProject "MetroMasr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632CD5CA221EE4760090FF2D /* Debug */,
+				632CD5CB221EE4760090FF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		632CD5CC221EE4760090FF2D /* Build configuration list for PBXNativeTarget "MetroMasr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632CD5CD221EE4760090FF2D /* Debug */,
+				632CD5CE221EE4760090FF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		632CD5CF221EE4760090FF2D /* Build configuration list for PBXNativeTarget "MetroMasrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632CD5D0221EE4760090FF2D /* Debug */,
+				632CD5D1221EE4760090FF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		632CD5D2221EE4760090FF2D /* Build configuration list for PBXNativeTarget "MetroMasrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632CD5D3221EE4760090FF2D /* Debug */,
+				632CD5D4221EE4760090FF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		632CD5AB221EE4760090FF2D /* MetroMasr.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				632CD5AC221EE4760090FF2D /* MetroMasr.xcdatamodel */,
+			);
+			currentVersion = 632CD5AC221EE4760090FF2D /* MetroMasr.xcdatamodel */;
+			path = MetroMasr.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 632CD599221EE4750090FF2D /* Project object */;
+}
