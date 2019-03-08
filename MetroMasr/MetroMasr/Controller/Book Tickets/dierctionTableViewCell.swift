@@ -13,6 +13,7 @@ class dierctionTableViewCell: UITableViewCell {
     @IBOutlet weak var directionLbl: UILabel!
     @IBOutlet weak var directionImage: UIImageView!
     
+    @IBOutlet weak var cellLbl: UILabel!
     
     
     
