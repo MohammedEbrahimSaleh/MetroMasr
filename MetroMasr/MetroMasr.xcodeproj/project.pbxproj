@@ -21,6 +21,11 @@
 		632CD5DD221EFE530090FF2D /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CD5DB221EFE520090FF2D /* DesignableTextField.swift */; };
 		632CD5DE221EFE530090FF2D /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CD5DC221EFE520090FF2D /* DesignableButton.swift */; };
 		632CD5E1221F25680090FF2D /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CD5E0221F25680090FF2D /* SignUPViewController.swift */; };
+		63428FD22235B4E6006C46F1 /* travelLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63428FD12235B4E6006C46F1 /* travelLogViewController.swift */; };
+		63428FD42235B5A1006C46F1 /* updateMyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63428FD32235B5A1006C46F1 /* updateMyProfileViewController.swift */; };
+		63428FD62235B5F5006C46F1 /* barcodeIssuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63428FD52235B5F5006C46F1 /* barcodeIssuesViewController.swift */; };
+		63428FD82235B607006C46F1 /* settingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63428FD72235B607006C46F1 /* settingViewController.swift */; };
+		63428FDA2235B63B006C46F1 /* deleteMyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63428FD92235B63B006C46F1 /* deleteMyAccountViewController.swift */; };
 		63866628222FF8110016EA9C /* myLocationOnMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63866627222FF8110016EA9C /* myLocationOnMapViewController.swift */; };
 		63A4E26F22254C7A00187B84 /* myTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A4E26E22254C7A00187B84 /* myTabBarViewController.swift */; };
 		63A4E2712225604800187B84 /* mapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A4E2702225604800187B84 /* mapsViewController.swift */; };
@@ -32,6 +37,7 @@
 		63AF85642223045800AD96F6 /* demonstrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF85632223045800AD96F6 /* demonstrationViewController.swift */; };
 		63B771CA222C9C4900D8D2C4 /* getDirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B771C9222C9C4900D8D2C4 /* getDirectionsViewController.swift */; };
 		63B771CC222C9CB800D8D2C4 /* dierctionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B771CB222C9CB800D8D2C4 /* dierctionTableViewCell.swift */; };
+		63EF4FAA22354A5D005DF96D /* myAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EF4FA922354A5D005DF96D /* myAccountViewController.swift */; };
 		63F9886F2227C7AB007FFBE7 /* BookTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F9886E2227C7AB007FFBE7 /* BookTicketsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +79,11 @@
 		632CD5DB221EFE520090FF2D /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
 		632CD5DC221EFE520090FF2D /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		632CD5E0221F25680090FF2D /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		63428FD12235B4E6006C46F1 /* travelLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelLogViewController.swift; sourceTree = "<group>"; };
+		63428FD32235B5A1006C46F1 /* updateMyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateMyProfileViewController.swift; sourceTree = "<group>"; };
+		63428FD52235B5F5006C46F1 /* barcodeIssuesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barcodeIssuesViewController.swift; sourceTree = "<group>"; };
+		63428FD72235B607006C46F1 /* settingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingViewController.swift; sourceTree = "<group>"; };
+		63428FD92235B63B006C46F1 /* deleteMyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteMyAccountViewController.swift; sourceTree = "<group>"; };
 		63866627222FF8110016EA9C /* myLocationOnMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myLocationOnMapViewController.swift; sourceTree = "<group>"; };
 		63A4E26E22254C7A00187B84 /* myTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTabBarViewController.swift; sourceTree = "<group>"; };
 		63A4E2702225604800187B84 /* mapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapsViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +95,7 @@
 		63AF85632223045800AD96F6 /* demonstrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = demonstrationViewController.swift; sourceTree = "<group>"; };
 		63B771C9222C9C4900D8D2C4 /* getDirectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getDirectionsViewController.swift; sourceTree = "<group>"; };
 		63B771CB222C9CB800D8D2C4 /* dierctionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dierctionTableViewCell.swift; sourceTree = "<group>"; };
+		63EF4FA922354A5D005DF96D /* myAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAccountViewController.swift; sourceTree = "<group>"; };
 		63F9886E2227C7AB007FFBE7 /* BookTicketsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTicketsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -181,6 +193,7 @@
 				63F9886B2227C2B4007FFBE7 /* Maps */,
 				63A4E2742225651400187B84 /* Nearest Station */,
 				63F9886A2227C276007FFBE7 /* Book Tickets */,
+				63EF4FAB22354ADE005DF96D /* My account */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -213,6 +226,46 @@
 			path = designable;
 			sourceTree = "<group>";
 		};
+		63428FCB2235B44C006C46F1 /* my travel log */ = {
+			isa = PBXGroup;
+			children = (
+				63428FD12235B4E6006C46F1 /* travelLogViewController.swift */,
+			);
+			path = "my travel log";
+			sourceTree = "<group>";
+		};
+		63428FCC2235B45E006C46F1 /* update my profile */ = {
+			isa = PBXGroup;
+			children = (
+				63428FD32235B5A1006C46F1 /* updateMyProfileViewController.swift */,
+			);
+			path = "update my profile";
+			sourceTree = "<group>";
+		};
+		63428FCD2235B47B006C46F1 /* barcode issues */ = {
+			isa = PBXGroup;
+			children = (
+				63428FD52235B5F5006C46F1 /* barcodeIssuesViewController.swift */,
+			);
+			path = "barcode issues";
+			sourceTree = "<group>";
+		};
+		63428FCE2235B485006C46F1 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				63428FD72235B607006C46F1 /* settingViewController.swift */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
+		63428FCF2235B48D006C46F1 /* delete my account */ = {
+			isa = PBXGroup;
+			children = (
+				63428FD92235B63B006C46F1 /* deleteMyAccountViewController.swift */,
+			);
+			path = "delete my account";
+			sourceTree = "<group>";
+		};
 		63A4E2742225651400187B84 /* Nearest Station */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +277,19 @@
 				63A4E27A2225655A00187B84 /* anotherPositionViewController.xib */,
 			);
 			path = "Nearest Station";
+			sourceTree = "<group>";
+		};
+		63EF4FAB22354ADE005DF96D /* My account */ = {
+			isa = PBXGroup;
+			children = (
+				63EF4FA922354A5D005DF96D /* myAccountViewController.swift */,
+				63428FCB2235B44C006C46F1 /* my travel log */,
+				63428FCC2235B45E006C46F1 /* update my profile */,
+				63428FCD2235B47B006C46F1 /* barcode issues */,
+				63428FCE2235B485006C46F1 /* setting */,
+				63428FCF2235B48D006C46F1 /* delete my account */,
+			);
+			path = "My account";
 			sourceTree = "<group>";
 		};
 		63F9886A2227C276007FFBE7 /* Book Tickets */ = {
@@ -401,17 +467,23 @@
 				632CD5AD221EE4760090FF2D /* MetroMasr.xcdatamodeld in Sources */,
 				632CD5D6221EE5980090FF2D /* logInViewController.swift in Sources */,
 				63AF85642223045800AD96F6 /* demonstrationViewController.swift in Sources */,
+				63428FD42235B5A1006C46F1 /* updateMyProfileViewController.swift in Sources */,
+				63428FDA2235B63B006C46F1 /* deleteMyAccountViewController.swift in Sources */,
 				63A4E26F22254C7A00187B84 /* myTabBarViewController.swift in Sources */,
 				63A4E2712225604800187B84 /* mapsViewController.swift in Sources */,
 				63A4E2732225645700187B84 /* nearestStationViewController.swift in Sources */,
 				63866628222FF8110016EA9C /* myLocationOnMapViewController.swift in Sources */,
+				63428FD62235B5F5006C46F1 /* barcodeIssuesViewController.swift in Sources */,
 				632943ED2221B42000B782AF /* recreatePasswordViewController.swift in Sources */,
 				632CD5A5221EE4760090FF2D /* AppDelegate.swift in Sources */,
+				63428FD82235B607006C46F1 /* settingViewController.swift in Sources */,
+				63428FD22235B4E6006C46F1 /* travelLogViewController.swift in Sources */,
 				632943E92221A64100B782AF /* forgetPasswordViewController.swift in Sources */,
 				63B771CC222C9CB800D8D2C4 /* dierctionTableViewCell.swift in Sources */,
 				632CD5DE221EFE530090FF2D /* DesignableButton.swift in Sources */,
 				63A4E27B2225655A00187B84 /* anotherPositionViewController.swift in Sources */,
 				63F9886F2227C7AB007FFBE7 /* BookTicketsViewController.swift in Sources */,
+				63EF4FAA22354A5D005DF96D /* myAccountViewController.swift in Sources */,
 				632943EB2221B3F500B782AF /* confirmPINViewController.swift in Sources */,
 				632CD5E1221F25680090FF2D /* SignUPViewController.swift in Sources */,
 				632CD5DD221EFE530090FF2D /* DesignableTextField.swift in Sources */,

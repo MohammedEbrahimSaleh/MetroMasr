@@ -11,7 +11,9 @@ import UIKit
 class SignUPViewController: UIViewController {
       //variables
     
-    var fullName = ""
+    var firstName = ""
+    var surName = ""
+    var lastName = ""
     var socialID = ""
     var phoneNumber = ""
     var adress = ""
@@ -20,7 +22,11 @@ class SignUPViewController: UIViewController {
     var repeatPass = ""
     
      // outlets
-    @IBOutlet weak var userFullNameTextField: DesignableTextField!
+    @IBOutlet weak var userFirstNameTextField: DesignableTextField!
+    
+    @IBOutlet weak var userSurNameTextField: DesignableTextField!
+    
+    @IBOutlet weak var userLastNameTextField: DesignableTextField!
     
     @IBOutlet weak var userIDNumberTextField: DesignableTextField!
     
@@ -38,7 +44,9 @@ class SignUPViewController: UIViewController {
     @IBAction func RegisterBtnPressed(_ sender: DesignableButton) {
         
         
-        fullName=userFullNameTextField.text!
+        firstName=userFirstNameTextField.text!
+        surName=userSurNameTextField.text!
+        lastName=userLastNameTextField.text!
         socialID=userIDNumberTextField.text!
         phoneNumber=userPhoneNumberTextField.text!
         adress=userAdressTextField.text!
@@ -46,7 +54,7 @@ class SignUPViewController: UIViewController {
         password=userPasswordTextField.text!
         repeatPass=userRepeatPasswordTextField.text!
         
-        if (fullName.isEmpty||socialID.isEmpty||phoneNumber.isEmpty||adress.isEmpty||email.isEmpty||password.isEmpty||repeatPass.isEmpty)
+        if (firstName.isEmpty||surName.isEmpty||lastName.isEmpty||socialID.isEmpty||phoneNumber.isEmpty||adress.isEmpty||email.isEmpty||password.isEmpty||repeatPass.isEmpty)
         {
             
             
